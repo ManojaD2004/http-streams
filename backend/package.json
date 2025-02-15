@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManojaD2004/http-streams.git"
+  },
+  "author": "Manoja D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManojaD2004/http-streams/issues"
+  },
+  "homepage": "https://github.com/ManojaD2004/http-streams#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
