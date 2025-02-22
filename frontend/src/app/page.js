@@ -7,8 +7,11 @@ export default function Home() {
       <a href="/sse" className="underline" target="_blank">
         SSE Event
       </a>
-      <a href="/stream" className="underline" target="_blank">
-        Http Stream
+      <a href="/res-stream" className="underline" target="_blank">
+        Http Res Stream
+      </a>
+      <a href="/req-stream" className="underline" target="_blank">
+        Http Req Stream
       </a>
     </div>
   );

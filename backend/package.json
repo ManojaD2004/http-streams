@@ -2,6 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "nodemon .",
     "start": "node .",
@@ -19,10 +20,12 @@
   "homepage": "https://github.com/ManojaD2004/http-streams#readme",
   "description": "",
   "dependencies": {
+    "backend": "file:",
     "cors": "^2.8.5",
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "nodemon": "^3.1.9"
   }
 }
